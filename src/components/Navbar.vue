@@ -3,15 +3,12 @@
       <router-link to="/">Accueil</router-link>
       <router-link to="/form">Formulaire</router-link>
       <router-link to="/about">A propos</router-link>
-      <router-view/>
-    </div>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'Navbar',
-  props: {
-  }
+  name: 'Navbar'
 }
 </script>
 
